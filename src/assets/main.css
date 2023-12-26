@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+
 html {
+  font-family: 'Cutive', serif;
   max-width: 80ch;
   padding: 3em 1em;
   margin: auto;

@@ -2,7 +2,7 @@
 import { onMounted, ref } from 'vue';
 import { tatau } from 'tatau';
 
-let inputValue = ref(1234567);
+let inputValue = ref(7);
 let result = ref('');
 let typingTimeoutId = ref(0);
 
@@ -42,7 +42,7 @@ main {
 }
 
 input {
-  width: 90cw;
+  width: 90%;
   font-size: 2rem;
   padding: 0.5rem;
   border: 1px solid #ccc;
@@ -51,7 +51,7 @@ input {
 }
 
 #result {
-  width: 90cw;
+  width: 90%;
   font-size: 2rem;
 }
 </style>

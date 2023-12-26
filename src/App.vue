@@ -1,26 +1,24 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
+  <h1>tatau</h1>
+  <p>
+    <span><i>(verb) to count, calculate, add up, enumerate, tally.</i></span>
+  </p>
   <div id="app">
     <header>
       <div class="wrapper">
-        <h1>tatau</h1>
-        <p>
-          <span><i>(verb) to count, calculate, add up, enumerate, tally.</i></span>
-        </p>
         <p>
           A Javascript / Typescript package which translates between numerals and te reo Maori text.
-        </p>
-        <p>
-          Tatau is dependency-less. Installing it will not add any additional dependencies to your
-          project.
         </p>
         <nav>
           <a role="button" href="https://www.npmjs.com/package/tatau" target="_blank">NPM</a>
           <a role="button" href="https://github.com/jeff-goodman/tatau" target="_blank">GitHub</a>
-          <a role="button" href="https://maoridictionary.co.nz/word/7653" target="_blank">Meaning</a>
+          <a role="button" href="https://maoridictionary.co.nz/word/7653" target="_blank"
+            >Meaning</a
+          >
         </nav>
       </div>
     </header>
@@ -31,8 +29,17 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+h1 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
 #app {
   display: flex;
+  flex-direction: row;
 }
 
 header {
@@ -42,6 +49,12 @@ header {
 
 .content {
   flex: 2;
+}
+
+@media screen and (max-width: 768px) {
+  #app {
+    flex-direction: column-reverse;
+  }
 }
 
 nav {
