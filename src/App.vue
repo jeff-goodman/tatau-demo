@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+import { RouterView } from 'vue-router';
+import NavBar from './components/NavBar.vue';
+
 </script>
 
 <template>
@@ -13,13 +15,7 @@ import { RouterView } from 'vue-router'
         <p>
           A Javascript / Typescript package which translates between numerals and te reo Māori text.
         </p>
-        <nav>
-          <a role="button" href="https://www.npmjs.com/package/tatau" target="_blank">NPM</a>
-          <a role="button" href="https://github.com/jeff-goodman/tatau" target="_blank">GitHub</a>
-          <a role="button" href="https://maoridictionary.co.nz/word/7653" target="_blank"
-            >Meaning</a
-          >
-        </nav>
+       <NavBar />
       </div>
     </header>
     <div class="content">
@@ -57,9 +53,4 @@ header {
   }
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1em;
-}
 </style>
