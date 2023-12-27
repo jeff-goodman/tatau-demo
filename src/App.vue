@@ -11,7 +11,7 @@ import { RouterView } from 'vue-router'
     <header>
       <div class="wrapper">
         <p>
-          A Javascript / Typescript package which translates between numerals and te reo Maori text.
+          A Javascript / Typescript package which translates between numerals and te reo Māori text.
         </p>
         <nav>
           <a role="button" href="https://www.npmjs.com/package/tatau" target="_blank">NPM</a>
