@@ -10,7 +10,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'NavBar'
+  name: 'NavBar',
 });
 </script>
 
@@ -24,6 +24,7 @@ nav {
 .nav-link {
   display: inline-block;
   padding: 10px 20px;
+  margin: 0 5px;
   text-decoration: none;
   color: black;
   background-color: white;
@@ -35,5 +36,4 @@ nav {
 .nav-link:hover {
   border: 1px solid black;
 }
-
 </style>
