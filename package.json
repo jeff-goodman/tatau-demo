@@ -13,7 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "tatau": "^0.0.3",
+    "tatau": "^0.0.4",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   },
